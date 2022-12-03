@@ -1,7 +1,7 @@
 # Nota preliminar
 Desarrollada por Katherine Crowson, Henry Rachootin y David Marxs [PyTTI] PyTTI-Tools es una versión gratuita del código original Rachootin entendida para usuarios de alto nivel. Herramientas como esta se han hecho muy populares entre creadores de contenido debido a su impresionante poder generativo y la relativa facilidad con la que este es accesible. 
-A continuación describiré los pasos que tomé para realizarla, para después discutir los resultados, mis impresiones y por último abordar la discusión de la problemática inicial habiendo mojado los pies tanto en el campo teórico como práctico. 
-Dejaré los links tanto al notebook de PyTTI-Tools y al código en Github (Anexo A),  como a los diferentes prototipos realizados con él (Anexo B) en los anexos.  
+A continuación describiré los pasos que tomé para realizarla. 
+[link a la obra](https://drive.google.com/drive/folders/1kHNs5WzcNBBdhpUHJ-oCyezSt5PKqH6D?usp=sharing)  
 
 ## Metodología
 
@@ -24,7 +24,7 @@ Aquí se describen las escenas a generar. Estas deben separarse por | y además 
 Los autores recomiendan prácticas como tomar en cuenta cuando fue entrenado el modelo para no tener errores de tipo introducir una película que se hizo pública en el 2022 a un modelo que se entrenó en 2020.  También se recomienda el uso de fuentes de imágenes en la web. Yo por ejemplo, especifiqué un sitio de un artista para que el estilo de este sea imitado: artstation art by Azat Nurgaleev.
 Los valores que introduje en este apartado fueron:
 scenes: eternal feminine | big translucent women eyes | rivers of wine
-scene_suffix: | satellite image:-1:-.95 | text:-1:-.95 | watermark:-1:-.95 | backyard telescope:-1:-.95 | map:-1:-.95
+scene_suffix: | satellite image:\-1:-.95 | text:\-1:-.95 | watermark:\-1:-.95 | backyard telescope:\-1:-.95 | map:\-1:-.95
 scene_prefix: astrophotography #pixelart | artstation art by Azat Nurgaleev | #conceptart eternal feminine |  
 
 **Otros parámetros configurados**
@@ -46,7 +46,7 @@ Tabla 1. Otros parámetros configurados para la realización de la obra artísti
 Ejecutar las 19 celdas de este apartado una vez configurados los parámetros descritos.
 
 **Paso 2.3: Ejecución** 
-Posteriormente se debe correr la celda 2.3 para generar las imágenes. Fue a esta altura donde me topé con mi primer problema: Al correr la celda saltaba el error “pytti_test\AdaBins\pretrained\archive file not found” lo cual fue resuelto -después de algo de indagación- descargando el modelo pre entrenado de Adaptive Bins y descomprimiendolo en la carpeta con esa dirección en Drive. Así mismo, dejaré el link para descargar el modelo en los anexos (Anexo C) si alguien se topa con el mismo inconveniente.  
+Posteriormente se debe correr la celda 2.3 para generar las imágenes. Fue a esta altura donde me topé con mi primer problema: Al correr la celda saltaba el error “pytti_test\AdaBins\pretrained\archive file not found” lo cual fue resuelto -después de algo de indagación- descargando el modelo pre entrenado de Adaptive Bins y descomprimiendolo en la carpeta con esa dirección en Drive. Así mismo, dejaré el link para [descargar el modelo](https://drive.google.com/file/d/1XdMsUUPIp4-JQP2x20wQZXPGJizSN9ZO/view?usp=sharing) si alguien se topa con el mismo inconveniente.  
 Una vez resuelto el problema, las imágenes son generadas e impresas cada 50 unidades en pantalla, guardándose en la carpeta “images_out” del directorio creado por el código.
 
 **Paso 3: Reenderización del video**
