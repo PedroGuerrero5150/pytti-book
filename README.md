@@ -23,9 +23,10 @@ En este punto cabe mencionar que estamos trabajando -en su vasta mayoría- con m
 Aquí se describen las escenas a generar. Estas deben separarse por | y además pueden llevar un peso (especificado después de los dos puntos) que, dependiendo de su valor (positivo o negativo) estará más o menos  presente en la obra. 
 Los autores recomiendan prácticas como tomar en cuenta cuando fue entrenado el modelo para no tener errores de tipo introducir una película que se hizo pública en el 2022 a un modelo que se entrenó en 2020.  También se recomienda el uso de fuentes de imágenes en la web. Yo por ejemplo, especifiqué un sitio de un artista para que el estilo de este sea imitado: artstation art by Azat Nurgaleev.
 Los valores que introduje en este apartado fueron:
+
 scenes: eternal feminine | big translucent women eyes | rivers of wine
 
-scene_suffix: | satellite image\:\-1\:-.95 | text\:\-1\:-.95 | watermark\:\-1\:-.95 | backyard telescope\:\-1\:-.95 | map\:\-1\:-.95
+scene_suffix: | satellite image\:\-\1\:-.95 | text\:\-\1\:-.95 | watermark\:\-\1\:-.95 | backyard telescope\:\-\1\:-.95 | map\:\-\1\:-.95
 
 scene_prefix: astrophotography #pixelart | artstation art by Azat Nurgaleev | #conceptart eternal feminine |  
 
