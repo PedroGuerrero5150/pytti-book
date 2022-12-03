@@ -6,6 +6,7 @@ A continuación describiré los pasos que tomé para realizarla.
 ## Metodología
 
 **Google Colab**
+
 El código se corrió en la plataforma de Google Colab debido a la necesidad (propia de la gran mayoría de arquitecturas de Deep Learning) de GPUs. También se puede usar una máquina local que los tenga, pero ese no era mi caso y probablemente también lo sea el de gran parte del público objetivo.
 Google Colab permite conectarse a GPUs de forma remota para correr el código de manera gratuita, pero debido a las limitaciones que la versión gratuita trae con sigo -GPUs inferiores y frecuentes interrupciones durante el proceso- es recomendable suscribirse a la membresía “pro”. Antes de conectarse a la máquina remota, se debe cambiar el apartado de “Hardware accelerator” de CPU a GPU.
 
