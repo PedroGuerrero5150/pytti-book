@@ -26,7 +26,7 @@ Los valores que introduje en este apartado fueron:
 
 scenes: eternal feminine | big translucent women eyes | rivers of wine
 
-scene_suffix\: | satellite image:\-1:-.95 | text\:\-1\:-.95 | watermark\:\-\1\:-.95 | backyard telescope\:\-\1\:-.95 | map\:\-\1\:-.95
+scene_suffix\: | satellite image:\-\1:-.95 | text\:\-\1\:-.95 | watermark\:\-\1\:-.95 | backyard telescope\:\-\1\:-.95 | map\:\-\1\:-.95
 
 scene_prefix: astrophotography #pixelart | artstation art by Azat Nurgaleev | #conceptart eternal feminine |  
 
